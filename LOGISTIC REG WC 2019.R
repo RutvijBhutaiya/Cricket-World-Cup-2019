@@ -45,9 +45,11 @@ test = test1[, -c(1,3,4,6,5,7)]
 attach(train)
 library(SDMTools)
 
-logit = Team.A.Won ~ Trim.Team.AAustralia + Trim.Team.ABangladesh + Trim.Team.AEngland +
-  Trim.Team.ASouth.Africa + Trim.Team.ASri.Lanka + Trim.Team.BAustralia + 
-  Trim.Team.BBangladesh + Trim.Team.BIndia + Trim.Team.BPakistan + Trim.Team.BSouth.Africa
+#logit = Team.A.Won ~ Trim.Team.AAustralia + Trim.Team.ABangladesh + Trim.Team.AEngland +
+#  Trim.Team.ASouth.Africa + Trim.Team.ASri.Lanka + Trim.Team.BAustralia + 
+#  Trim.Team.BBangladesh + Trim.Team.BIndia + Trim.Team.BPakistan + Trim.Team.BSouth.Africa
+
+logit = Team.A.Won ~ .  # Few Variables arenot significant, However, due to Teams we decided to consider All variables. 
 
 logit.plot = glm(logit, data = train, family = binomial)
 
@@ -56,3 +58,10 @@ summary(logit.plot)
 test1$predict.logit = predict.glm(logit.plot, newdata = test1, type = 'response')
 
 test1$Team.A.Win = ifelse(test1$predict.logit > 0.5,1,0)
+
+test1 = test1[, -c(6:25)]
+
+View(test1)
+
+## Model Evaluation 
+
