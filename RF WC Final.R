@@ -3,10 +3,12 @@
 
 wc = read.csv('WC_Train.csv')
 
-## Pick Years 1992 till 1995 for traning data set
 
 # train = wc[which(wc$Year >= 2003 & wc$Year <=2014),]
+
 train = wc
+
+
 #train = train[, -6]
 
 attach(train)
@@ -24,10 +26,11 @@ train = data.frame(train, Team.B.matrix)
 train = train[, -c(1,3,4,6,8,5,9)]
 
 
+## Randomly Arrange Dataset
+
 library(dplyr)
 
 train = sample_frac(train, 1)
-
 
 
 ## TEST DATA SET
@@ -68,7 +71,9 @@ wc.rf.tune = randomForest(as.factor(Team.A.Won) ~., data = train,
 print(wc.rf.tune)
 
 
-test1$pred.class = predict(wc.rf, test1, type = 'class')
-test1$pred.score = predict(wc.rf, test, type = 'prob')
+test1$Team.A.Win = predict(wc.rf, test1, type = 'class')
+test1$Team.A.Score = predict(wc.rf, test1, type = 'prob')
 
 test1 = test1[, -c(5:25)]
+View(test1)
+
