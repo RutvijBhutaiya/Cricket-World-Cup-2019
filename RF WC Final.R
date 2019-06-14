@@ -1,5 +1,5 @@
 
-## Random Forest World Cup 1992 
+## Random Forest World Cup Dataset 1992 - 2018 Matches
 
 wc = read.csv('WC_Train.csv')
 
@@ -13,7 +13,7 @@ train = wc
 
 attach(train)
 
-## Creat dummy variable sfor Team A and Team B TRAIN
+## Create dummy variables for Team A and Team B TRAIN 
 
 Team.A.matrix = model.matrix(~ Trim.Team.A - 1, data = train)
 train = data.frame(train, Team.A.matrix)
@@ -21,7 +21,7 @@ train = data.frame(train, Team.A.matrix)
 Team.B.matrix = model.matrix(~ Trim.Team.B - 1, data = train)
 train = data.frame(train, Team.B.matrix)
 
-## Remove Year, Team A & Team B 
+## Remove Year, Team A & Team B - and Categorical Variables for the study
 
 train = train[, -c(1,3,4,6,8,5,9)]
 
@@ -33,7 +33,7 @@ library(dplyr)
 train = sample_frac(train, 1)
 
 
-## TEST DATA SET
+## TEST DATA SET file load
 
 test1 = read.csv('Test_Final.csv')
 
@@ -46,8 +46,7 @@ test1 = data.frame(test1, Team.B.matrix.test)
 test = test1[, -c(1,3,4,6,5,7)]
 
 
-
-## Random Forest Model
+## Build Random Forest Model for wc dataset and predict test1 2019 WC match winner 
 
 
 library(randomForest)
