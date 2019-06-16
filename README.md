@@ -30,11 +30,16 @@ Random Forest Approach :
 
 In new RF approach for entire data set [From 1987 to 2018], we decided to include Year variable - based on which, model identifies team perfromance in latest years [Like best team based on winning for year 2016 -17 -18  etc.]
 
+Evaluation : 
+
+
 Logistic Regression Approach :
 
 Similarly, in Logistic Regression approach we trained same dataset. 
 
 As conclusion, Logistic Regregression approach is right method to predict ICC World Cup Cricket 2019 game for the dataset.  Because, in the model we have also added results in 'predict.logit' variable. This variable fives probability of Team A winning.  HOwever, in case of close probability like between 0.45 to 0.65, it literally becomes tought to predict team winning. 
+
+Evaluation : 
 
 ~~~~~~~
 
