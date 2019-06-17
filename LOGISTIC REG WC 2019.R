@@ -63,5 +63,9 @@ test1 = test1[, -c(6:25)]
 
 View(test1)
 
+write.csv(test1, 'WC19 Predict Match.csv')
+
 ## Model Evaluation 
+
+
 
