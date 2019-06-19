@@ -1,0 +1,38 @@
+"","Month","Year","Team.A","Team.B","predict.logit","Team.A.Win"
+"1","May",2019,"England"," South Africa",0.559383853753288,1
+"2","May",2019,"Pakistan"," West Indies",0.772266119299393,1
+"3","June",2019,"New Zealand"," Sri Lanka",0.683594093046161,1
+"4","June",2019,"Bangladesh"," South Africa",0.290499998647996,0
+"5","June",2019,"England"," Pakistan",0.686662222643887,1
+"6","June",2019,"India"," South Africa",0.621156672375886,1
+"7","June",2019,"Bangladesh"," New Zealand",0.486001031850616,0
+"8","June",2019,"Australia"," West Indies",0.896962596914431,1
+"9","June",2019,"Pakistan ","Sri Lanka",0.536952532948882,1
+"10","June",2019,"England ","Bangladesh",0.882353763599447,1
+"11","June",2019,"India ","Australia",0.63639849464655,1
+"12","June",2019,"South Africa ","West Indies",0.860955717167242,1
+"13","June",2019,"Bangladesh ","Sri Lanka",0.370970265132604,0
+"14","June",2019,"Australia ","Pakistan",0.781059165167624,1
+"15","June",2019,"India ","New Zealand",0.791073277233384,1
+"16","June",2019,"England ","West Indies",0.842458231727532,1
+"17","June",2019,"Sri Lanka ","Australia",0.48008284868903,0
+"18","June",2019,"India ","Pakistan",0.738919365722289,1
+"19","June",2019,"West Indies ","Bangladesh",0.725505950969115,1
+"20","June",2019,"New Zealand ","South Africa",0.599993517010267,1
+"21","June",2019,"Australia ","Bangladesh",0.92429587502884,1
+"22","June",2019,"England ","Sri Lanka",0.646470845757766,1
+"23","June",2019,"West Indies ","New Zealand",0.508158526643399,1
+"24","June",2019,"Pakistan ","South Africa",0.44600631382024,0
+"25","June",2019,"England ","Australia",0.575412156896756,1
+"26","June",2019,"New Zealand ","Pakistan",0.721383978065635,1
+"27","June",2019,"West Indies ","India",0.306551694148063,0
+"28","June",2019,"Sri Lanka ","South Africa",0.463809249490854,0
+"29","June",2019,"New Zealand ","Australia",0.615559817109998,1
+"30","June",2019,"England ","India",0.556428815902292,1
+"31","June",2019,"Sri Lanka ","West Indies",0.784646937108467,1
+"32","June",2019,"Bangladesh ","India",0.288036833920881,0
+"33","June",2019,"England ","New Zealand",0.745661986669007,1
+"34","June",2019,"Pakistan ","Bangladesh",0.826271392122285,1
+"35","June",2019,"Sri Lanka ","India",0.460831047997165,0
+"36","June",2019,"Australia ","South Africa",0.673916003988006,1
+"37","June",2019,"England","England",0.60967042694283,1
