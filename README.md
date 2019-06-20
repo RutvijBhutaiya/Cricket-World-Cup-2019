@@ -45,3 +45,6 @@ As conclusion, Logistic Regregression approach is right method to predict ICC Wo
 # Evaluation : [Pending]
 
 
+# Compare Predicted Results 
+
+In this study we have compared the predicted results from Random Forest Modela vs. Logistic Regression Model vs. Actual match result. 
