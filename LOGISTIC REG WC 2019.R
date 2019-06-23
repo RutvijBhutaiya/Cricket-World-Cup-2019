@@ -69,7 +69,7 @@ test1 = test1[, -5]   ## Remove Ground Variable - Not included in Study
 
 View(test1)
 
-write.csv(test1, 'WC 19 Preciction.csv')
+write.csv(test1, 'Logistic Regression Prediction.csv')
 
 ## Model Evaluation 
 
