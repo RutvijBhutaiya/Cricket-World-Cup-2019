@@ -15,6 +15,8 @@
 - [Build Logistic regression Model](#build-logistic-regression-model)
 - [Logistic Regression Results](#logistic-regression-results)
 - [Compare Model Performance](#compare-model-performance)
+- [LICENSE](#LICENSE)
+- [Acknowledge](#Acknowledge)
 
 <br>
 
@@ -197,10 +199,11 @@ In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob
 
 #### Till Date (22/06/2019)
 
-__RF Predicted 14 correct matches out of 20__
-__LR Predicted 14 correct matched out of 20__
+- __RF Predicted 14 correct matches out of 20__
+- __LR Predicted 14 correct matched out of 20__
 
 Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
+
 
 However, few matches were very close call, e.g. in terms of % probability of winning for the team. 
 
@@ -211,9 +214,17 @@ However, few matches were very close call, e.g. in terms of % probability of win
 <p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976611-99fbaa00-95e4-11e9-89cf-f719213b0fc5.png>
 
 
+<br>
 
+## LICENSE 
 
+This Project/Repository is Licensed under [MIT license.](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/LICENSE) 
 
+<br>
+
+## Acknowledge 
+
+This Project/Repository is part of Great Learning - Cricket World Cup Challenge. 
 
 
 
