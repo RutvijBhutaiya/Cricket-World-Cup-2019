@@ -18,7 +18,7 @@
 
 <br>
 
-<p align="center"><img width=50% src=https://user-images.githubusercontent.com/44467789/59974999-a970f800-95d0-11e9-8676-5e32213e2818.png>
+<p align="center"><img width=62% src=https://user-images.githubusercontent.com/44467789/59974999-a970f800-95d0-11e9-8676-5e32213e2818.png>
     
 <br>    
     
@@ -137,6 +137,78 @@ Based on the results we were not fully satisfied. And hence decided to work on s
 ## Build Logistic Regression Model
 
 Similarly, for Logistic Regression we created a train dataset for ODI matches from 2007 to 2018, and created dummy variables to Target Team.A.Won variable with all the independent variables. 
+```
+logit = Team.A.Won ~ .  # Few Variables arenot significant, However, due to Teams we decided to consider All variables. 
+
+logit.plot = glm(logit, data = train, family = binomial)
+
+summary(logit.plot)
+```
+However, we also found few dummy variables for independent variables set are not significant for the study [like Bangladesh and West Indies]. And Finally, we decided to consider all the teams dummy variables for the study.
+
+<p align="center"><img width=65% src=https://user-images.githubusercontent.com/44467789/59975887-20ab8980-95db-11e9-86d2-3ad38b9691e0.png>
+
+Based on the model logit.plot we predicted the test1 file matched for 2019 World Cup. And stored the results in [Logistic Regression Prediction.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Logistic%20Regression%20Prediction.csv) file. 
+We also did evaluation of the Logistic Regression model. However, we believe correct evaluation of the model is actual match result. 
+
+<br>
+
+## Logistic Regression Results
+
+To evalute the model we ploted ROC curve and calculated the accuracy for the predicted results.
+```
+## Model Evaluation 
+
+m3.matrix = confusion.matrix(test1$Team.A.Win, predict.logit, threshold = 0.5)
+m3.matrix
+
+library(pROC)
+m3.roc = roc(test1$Team.A.Win, predict.logit)
+m3.roc
+plot(m3.roc)
+
+## ON RESULT RATIOS DATA SET
+accuracy.logit<-sum(diag(m3.matrix))/sum(m3.matrix)
+accuracy.logit
+[1] 0.7567568 
+```
+
+As shown model accuracy is 75%, and following are the predicted results from the WC 2019 matches. 
+
+ <p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976182-674eb300-95de-11e9-92bf-82599af839e0.png>
+
+<br>
+
+## Compare Model Performance
+
+Based on the two supervised learning techniques we build model which can predict WC 2019 matched outcome even before actual match starts. And we compared the model results vs. actual matches result.  
+
+Hence, we uploaded both the models RF and LR results in -- > [Compare Predict - RF vs. LR](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv)
+
+```
+colnames(ComparePredict)[colnames(ComparePredict) == 'Team.A.Win'] = 'RF Team.A.Win'
+colnames(ComparePredict)[colnames(ComparePredict) == 'Team.A.Win.1'] = 'LR Team.A.Win'
+
+colnames(ComparePredict)[colnames(ComparePredict) == 'Team.A.Score.1'] = 'Prob % RF Team.A.Win'
+colnames(ComparePredict)[colnames(ComparePredict) == 'predict.logit'] = 'Prob % LR Team.A.Win'
+```
+
+In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv) file we also manually entered actual match result.
+
+#### Till Date (22/06/2019)
+
+__RF Predicted 14 correct matches out of 20__
+__LR Predicted 14 correct matched out of 20__
+
+Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
+
+However, few matches were very close call, e.g. in terms of % probability of winning for the team. 
+
+<p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976603-759fcd80-95e4-11e9-83fe-b3d9e915e2ea.png>
+                  
+<p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976608-881a0700-95e4-11e9-88b5-c0c5a4bdf533.png>
+                     
+<p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976611-99fbaa00-95e4-11e9-89cf-f719213b0fc5.png>
 
 
 
