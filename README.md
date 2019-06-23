@@ -76,7 +76,7 @@ For the training dataset, we choose 983 observations, where most of the variable
 And hence, before building supervised learning model we converted factors into dummy variables. 
 Based on rpivotTable(wc)  function, we found interesting study.
 
-<p align="center"><img width=20% src=https:https://user-images.githubusercontent.com/44467789/59975456-5188c000-95d5-11e9-8d3e-6c877f809f26.png>
+<p align="center"><img width=75% src=https://user-images.githubusercontent.com/44467789/59975567-f657cd00-95d6-11e9-9e58-a08dfc6b95c2.png>
   
 As we can see based on the above chart table, since last 2 years (2017 & 2018) – England team & India Team gave winning performance and are trending at the top positions. 
 
@@ -84,7 +84,7 @@ Similarly, you can see the 2011 World Cup final match was between India and Sri 
 
 Similarly, in World Cup 2015, based on the following bar chart, we can see how New Zealand has emerged from 2012 to 2014 and challenged Australia in 2015 WC finals.
 
-<p align="center"><img width=20% src=https:https://user-images.githubusercontent.com/44467789/59975466-7b41e700-95d5-11e9-98c9-ec26d3688fbe.png>
+<p align="center"><img width=75% src=https://user-images.githubusercontent.com/44467789/59975590-3e76ef80-95d7-11e9-9a82-283d0bbb08f1.png>
 
 In World Cup 2019, strong contender for world cup are India, England, New Zealand and South Africa. 
 
@@ -126,10 +126,17 @@ And results ae stored in [Random Forest Prediction.csv](https://github.com/Rutvi
 
 ## Random Forest Results
 
+Due to high error rate in random Forest model - [And even after tuning the model, we were not able to reduce the error]
 
+<p align="center"><img width=75% src=https://user-images.githubusercontent.com/44467789/59975649-1d62ce80-95d8-11e9-8788-9efe1628e4a3.png>
 
+Based on the results we were not fully satisfied. And hence decided to work on supervised learning technique Logistic Regression to predict ICC Cricket 2019 World Cup matches. 
 
+<br>
 
+## Build Logistic Regression Model
+
+Similarly, for Logistic Regression we created a train dataset for ODI matches from 2007 to 2018, and created dummy variables to Target Team.A.Won variable with all the independent variables. 
 
 
 
