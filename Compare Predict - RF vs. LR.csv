@@ -1,38 +1,38 @@
-,Team.A,Team.B,RF Team.A.Win,Prob % RF Team.A.Win,Prob % LR Team.A.Win,LR Team.A.Win,Actual Result,
-1,England, South Africa,1,0.71,0.56,1,England,
-2,Pakistan, West Indies,1,0.89,0.77,1,West Indies,
-3,New Zealand, Sri Lanka,1,0.87,0.68,1,New Zealand,
-4,Bangladesh, South Africa,0,0.36,0.29,0,Bangladesh,
-5,England, Pakistan,1,0.78,0.69,1,Pakisthan,
-6,India, South Africa,1,0.73,0.62,1,India,
-7,Bangladesh, New Zealand,1,0.60,0.49,0,New Zealand,
-8,Australia, West Indies,1,0.78,0.90,1,Australia,
-9,Pakistan ,Sri Lanka,1,0.84,0.54,1,Match Abandoned,
-10,England ,Bangladesh,1,0.78,0.88,1,England,
-11,India ,Australia,1,0.84,0.64,1,India,
-12,South Africa ,West Indies,1,0.87,0.86,1,Match Abandoned,
-13,Bangladesh ,Sri Lanka,0,0.31,0.37,0,Match Abandoned,
-14,Australia ,Pakistan,1,0.73,0.78,1,Australia,
-15,India ,New Zealand,1,0.82,0.79,1,India,
-16,England ,West Indies,1,0.93,0.84,1,England,
-17,Sri Lanka ,Australia,0,0.29,0.48,0,Australia,
-18,India ,Pakistan,1,0.96,0.74,1,India,
-19,West Indies ,Bangladesh,0,0.31,0.73,1,Bangladesh,
-20,New Zealand ,South Africa,0,0.42,0.60,1,New Zealand,
-21,Australia ,Bangladesh,1,0.76,0.92,1,,
-22,England ,Sri Lanka,1,0.73,0.65,1,,
-23,West Indies ,New Zealand,0,0.47,0.51,1,,
-24,Pakistan ,South Africa,1,0.51,0.45,0,,
-25,England ,Australia,1,0.87,0.58,1,,
-26,New Zealand ,Pakistan,1,0.93,0.72,1,,
-27,West Indies ,India,0,0.09,0.31,0,,
-28,Sri Lanka ,South Africa,0,0.24,0.46,0,,
-29,New Zealand ,Australia,1,0.89,0.62,1,,
-30,England ,India,0,0.49,0.56,1,,
-31,Sri Lanka ,West Indies,1,0.76,0.78,1,,
-32,Bangladesh ,India,0,0.09,0.29,0,,
-33,England ,New Zealand,1,0.67,0.75,1,,
-34,Pakistan ,Bangladesh,1,0.82,0.83,1,,
-35,Sri Lanka ,India,0,0.13,0.46,0,,
-36,Australia ,South Africa,0,0.44,0.67,1,,
-37,England,England,0,0.38,0.61,1,,
+,Team.A,Team.B,RF Team.A.Win,Prob % RF Team.A.Win,Prob % LR Team.A.Win,LR Team.A.Win,Actual Result
+1,England, South Africa,1,0.71,0.56,1,England
+2,Pakistan, West Indies,1,0.89,0.77,1,West Indies
+3,New Zealand, Sri Lanka,1,0.87,0.68,1,New Zealand
+4,Bangladesh, South Africa,0,0.36,0.29,0,Bangladesh
+5,England, Pakistan,1,0.78,0.69,1,Pakisthan
+6,India, South Africa,1,0.73,0.62,1,India
+7,Bangladesh, New Zealand,1,0.6,0.49,0,New Zealand
+8,Australia, West Indies,1,0.78,0.9,1,Australia
+9,Pakistan ,Sri Lanka,1,0.84,0.54,1,Match Abandoned
+10,England ,Bangladesh,1,0.78,0.88,1,England
+11,India ,Australia,1,0.84,0.64,1,India
+12,South Africa ,West Indies,1,0.87,0.86,1,Match Abandoned
+13,Bangladesh ,Sri Lanka,0,0.31,0.37,0,Match Abandoned
+14,Australia ,Pakistan,1,0.73,0.78,1,Australia
+15,India ,New Zealand,1,0.82,0.79,1,India
+16,England ,West Indies,1,0.93,0.84,1,England
+17,Sri Lanka ,Australia,0,0.29,0.48,0,Australia
+18,India ,Pakistan,1,0.96,0.74,1,India
+19,West Indies ,Bangladesh,0,0.31,0.73,1,Bangladesh
+20,New Zealand ,South Africa,0,0.42,0.6,1,New Zealand
+21,Australia ,Bangladesh,1,0.76,0.92,1,Australia
+22,England ,Sri Lanka,1,0.73,0.65,1,Sri Lanka
+23,West Indies ,New Zealand,0,0.47,0.51,1,New Zealand
+24,Pakistan ,South Africa,1,0.51,0.45,0,
+25,England ,Australia,1,0.87,0.58,1,
+26,New Zealand ,Pakistan,1,0.93,0.72,1,
+27,West Indies ,India,0,0.09,0.31,0,
+28,Sri Lanka ,South Africa,0,0.24,0.46,0,
+29,New Zealand ,Australia,1,0.89,0.62,1,
+30,England ,India,0,0.49,0.56,1,
+31,Sri Lanka ,West Indies,1,0.76,0.78,1,
+32,Bangladesh ,India,0,0.09,0.29,0,
+33,England ,New Zealand,1,0.67,0.75,1,
+34,Pakistan ,Bangladesh,1,0.82,0.83,1,
+35,Sri Lanka ,India,0,0.13,0.46,0,
+36,Australia ,South Africa,0,0.44,0.67,1,
+37,England,England,0,0.38,0.61,1,
