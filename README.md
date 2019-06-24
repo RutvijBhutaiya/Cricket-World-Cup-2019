@@ -9,17 +9,29 @@
 <details>
 
 <summary><b>Expand For Steps</b></summary>
+
 __Step 1:__ [Install R Studio](https://www.rstudio.com/products/rstudio/download/#download)
+
 __Step 2:__ Download ODI Matches - [Data](http://www.howstat.com/cricket/Statistics/Matches/MatchListMenu.asp?r=T#tests?data-scroll=false)
+
 __Step 3:__ Clean Data and Get [Format](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/WC_Train.csv) ready
+
 __Step 4:__ [Clone/Download](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019.git) the Repository 
+
 __Step 5:__ Make necessary changes [e.g add new matches data in [WC_Train.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/WC_Train.csv) file]
+
 __Step 6:__ Do necessary data analysis [EDA](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/EDA%20ICC%20Cricket.R)
+
 __Step 7:__ Run [Random Forest Model](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/RF%20WC%20Final.R)
+
 __Step 8:__ Store Results in [Random Forest Prediction.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Random%20Forest%20Prediction.csv)
+
 __Step 9:__ Run [Logistic Regression Model](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/LOGISTIC%20REG%20WC%202019.R)
+
 __Sept 10:__ Store Results in [Logistic Regression Prediction.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Logistic%20Regression%20Prediction.csv)
+
 __Step 11:__ Run [Compare Model Predict](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Model%20Predict.R)
+
 __Step 12:__ Store Models vs Actual Results in [Comapre Predict - RF vs. LR](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv)
 
 </details>
