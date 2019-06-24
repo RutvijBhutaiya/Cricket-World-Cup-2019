@@ -82,6 +82,7 @@ m3.roc = roc(test1$Team.A.Win, predict.logit)
 m3.roc
 plot(m3.roc)
 
+
 ## ON RESULT RATIOS DATA SET
 
 

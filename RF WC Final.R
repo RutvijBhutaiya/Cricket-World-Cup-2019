@@ -74,5 +74,7 @@ test1$Team.A.Score = predict(wc.rf.tune, test1, type = 'prob')
 test1 = test1[, -c(5:25)]
 View(test1)
 
+
 write.csv(test1, 'Random Forest Prediction.csv')
+
 
