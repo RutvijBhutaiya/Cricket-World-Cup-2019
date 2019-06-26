@@ -129,6 +129,9 @@ In World Cup 2019, strong contender for world cup are India, England, New Zealan
 ## Build Random Forest Model
 
 Successfully uploaded dataset in R, and we created train variable for 2007 to 2018 cricket matches.
+
+__NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model. 
+
 ``` 
 wc = read.csv('WC_Train.csv')
 
@@ -168,11 +171,17 @@ Due to high error rate in random Forest model - [And even after tuning the model
 
 Based on the results we were not fully satisfied. And hence decided to work on supervised learning technique Logistic Regression to predict ICC Cricket 2019 World Cup matches. 
 
+__NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model.
+
+Afger 26 June MAtch Results are store in - [Random Forest Prediction after 25th June Matches. csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Random%20Forest%20Prediction%20after%2025%20June%20Matches.csv) file 
+
 <br>
 
 ## Build Logistic Regression Model
 
 Similarly, for Logistic Regression we created a train dataset for ODI matches from 2007 to 2018, and created dummy variables to Target Team.A.Won variable with all the independent variables. 
+
+__NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model
 ```
 logit = Team.A.Won ~ .  # Few Variables arenot significant, However, due to Teams we decided to consider All variables. 
 
@@ -212,6 +221,10 @@ accuracy.logit
 As shown model accuracy is 75%, and following are the predicted results from the WC 2019 matches. 
 
  <p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976182-674eb300-95de-11e9-92bf-82599af839e0.png>
+  
+__NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model.
+
+Afger 26 June Match Results are store in - [Logistic Regression Prediction after 25th June Matches. csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Logistic%20Regression%20Prediction%20After%2025%20June%20Matches.csv) file 
 
 <br>
 
@@ -231,10 +244,10 @@ colnames(ComparePredict)[colnames(ComparePredict) == 'predict.logit'] = 'Prob % 
 
 In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv) file we also manually entered actual match result.
 
-#### Till Date (22/06/2019)
+#### Update Date (25/06/2019)
 
-- __RF Predicted 14 correct matches out of 20__
-- __LR Predicted 14 correct matched out of 20__
+- __RF Predicted 15 correct matches out of 23__
+- __LR Predicted 15 correct matched out of 23__
 
 Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
 
