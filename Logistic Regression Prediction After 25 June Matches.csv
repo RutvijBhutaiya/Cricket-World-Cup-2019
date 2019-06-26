@@ -1,0 +1,13 @@
+"","Month","Year","Team.A","Team.B","predict.logit","Team.A.Win"
+"26","26-Jun",2019,"New Zealand ","Pakistan",0.717755651336708,1
+"27","27-Jun",2019,"West Indies ","India",0.28193217858528,0
+"28","28-Jun",2019,"Sri Lanka ","South Africa",0.494147805246052,0
+"29","29-Jun",2019,"New Zealand ","Australia",0.580832046968672,1
+"30","30-Jun",2019,"England ","India",0.523874344973581,1
+"31","01-Jul",2019,"Sri Lanka ","West Indies",0.796935876994636,1
+"32","02-Jul",2019,"Bangladesh ","India",0.269909207945985,0
+"33","03-Jul",2019,"England ","New Zealand",0.743264073399725,1
+"34","05-Jul",2019,"Pakistan ","Bangladesh",0.812222280954084,1
+"35","06-Jul",2019,"Sri Lanka ","India",0.42663532957263,0
+"36","06-Jul",2019,"Australia ","South Africa",0.683273195242906,1
+"37","06-Jul",2019,"England","England",0.620066763388465,1
