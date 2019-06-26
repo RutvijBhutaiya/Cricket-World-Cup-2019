@@ -6,7 +6,7 @@ wc = read.csv('WC_Train.csv')
 
 ## Data From 2007 World Cup till 2018 Cricket Matches
 
-train = wc[which(wc$Year >= 2007 & wc$Year <=2018),]
+train = wc[which(wc$Year >= 2007 & wc$Year <=2019),]
 
 #train = wc
 
@@ -35,6 +35,12 @@ train = sample_frac(train, 1)
 ## TEST DATA SET
 
 test1 = read.csv('Test_Final.csv')
+
+## UPDATE AS ON 26-6-2019 
+## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
+## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
+
+test1 = test1[-c(1:25),]  
 
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
@@ -69,7 +75,7 @@ test1 = test1[, -5]   ## Remove Ground Variable - Not included in Study
 
 View(test1)
 
-write.csv(test1, 'Logistic Regression Prediction.csv')
+write.csv(test1, 'Logistic Regression Prediction After 25 June Matches.csv')
 
 ## Model Evaluation 
 

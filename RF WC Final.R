@@ -5,7 +5,7 @@ wc = read.csv('WC_Train.csv')
 
 ## Data From 2007 World Cup till 2018 Cricket Matches
 
-train = wc[which(wc$Year >= 2007 & wc$Year <=2018),]
+train = wc[which(wc$Year >= 2007 & wc$Year <=2019),]
 
 #train = train[, -6]
 
@@ -35,6 +35,12 @@ train = sample_frac(train, 1)
 
 test1 = read.csv('Test_Final.csv')
 
+## UPDATE AS ON 26-6-2019 
+## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
+## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
+
+test1 = test1[-c(1:25),]  
+
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
 
@@ -60,11 +66,11 @@ plot(wc.rf)
 wc.rf$err.rate
 
 rf.tune = tuneRF(x = train, y = as.factor(Team.A.Won), 
-                 mtryStart = 4, ntreeTry = 45, stepFactor = 1.5, Improve = 0.001,
+                 mtryStart = 8, ntreeTry = 200, stepFactor = 1.5, Improve = 0.001,
                  trace = TRUE, plot = TRUE, doBest = TRUE, important = TRUE, nodesize = 10)
 
 wc.rf.tune = randomForest(as.factor(Team.A.Won) ~., data = train,
-                          ntree = 45, mtry = 4, nodesize = 10, important = TRUE)
+                          ntree = 200, mtry = 8, nodesize = 10, important = TRUE)
 
 print(wc.rf.tune)
 
@@ -75,6 +81,6 @@ test1 = test1[, -c(5:25)]
 View(test1)
 
 
-write.csv(test1, 'Random Forest Prediction.csv')
+write.csv(test1, 'Random Forest Prediction after 25 June Matches.csv')
 
 
