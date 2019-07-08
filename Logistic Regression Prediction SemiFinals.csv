@@ -1,0 +1,3 @@
+"","Month","Year","Team.A","Team.B","predict.logit","Team.A.Win"
+"37","09-Jul",2019,"India","New Zealand",0.784012631661442,1
+"38","11-Jul",2019,"Australia","England",0.706127686763774,1
