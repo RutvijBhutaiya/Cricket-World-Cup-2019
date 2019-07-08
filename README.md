@@ -182,6 +182,7 @@ Afger 26 June MAtch Results are store in - [Random Forest Prediction after 25th 
 Similarly, for Logistic Regression we created a train dataset for ODI matches from 2007 to 2018, and created dummy variables to Target Team.A.Won variable with all the independent variables. 
 
 __NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model
+__NOTE__: As on 08th July Codes has been tuned - For SemiFinal Predictions 
 ```
 logit = Team.A.Won ~ .  # Few Variables arenot significant, However, due to Teams we decided to consider All variables. 
 
@@ -223,6 +224,7 @@ As shown model accuracy is 75%, and following are the predicted results from the
  <p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976182-674eb300-95de-11e9-92bf-82599af839e0.png>
   
 __NOTE__: As on 26th June Codes has been tuned - For more accurate results - Also included WC 2019 matches to train model.
+__NOTE__: As on 08th July Codes has been tuned - For SemiFinal Predictions
 
 Afger 26 June Match Results are store in - [Logistic Regression Prediction after 25th June Matches. csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Logistic%20Regression%20Prediction%20After%2025%20June%20Matches.csv) file 
 
@@ -244,10 +246,10 @@ colnames(ComparePredict)[colnames(ComparePredict) == 'predict.logit'] = 'Prob % 
 
 In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv) file we also manually entered actual match result.
 
-#### Update Date (25/06/2019)
+#### Update Date (08/07/2019)
 
-- __RF Predicted 15 correct matches out of 23__
-- __LR Predicted 15 correct matched out of 23__
+- __RF Predicted 20 correct matches out of 32__
+- __LR Predicted 21 correct matched out of 32__
 
 Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
 
