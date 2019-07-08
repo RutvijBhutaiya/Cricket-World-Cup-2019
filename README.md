@@ -248,8 +248,8 @@ In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob
 
 #### Update Date (08/07/2019)
 
-- __RF Predicted 20 correct matches out of 32__
-- __LR Predicted 21 correct matched out of 32__
+- __RF Predicted 20 correct matches out of 31 : 64.5% correct__
+- __LR Predicted 21 correct matched out of 31 : 67.7% correct__
 
 Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
 
