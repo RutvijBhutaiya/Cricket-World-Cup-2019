@@ -39,7 +39,7 @@ test1 = read.csv('Test_Final.csv')
 ## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
 ## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
 
-test1 = test1[-c(1:25),]  
+# test1 = test1[-c(1:25),]  
 
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
@@ -70,7 +70,7 @@ rf.tune = tuneRF(x = train, y = as.factor(Team.A.Won),
                  trace = TRUE, plot = TRUE, doBest = TRUE, important = TRUE, nodesize = 10)
 
 wc.rf.tune = randomForest(as.factor(Team.A.Won) ~., data = train,
-                          ntree = 200, mtry = 8, nodesize = 10, important = TRUE)
+                          ntree = 200, mtry = 6, nodesize = 10, important = TRUE)
 
 print(wc.rf.tune)
 
@@ -81,6 +81,6 @@ test1 = test1[, -c(5:25)]
 View(test1)
 
 
-write.csv(test1, 'Random Forest Prediction after 25 June Matches.csv')
+write.csv(test1, 'Random Forest Prediction.csv')
 
 

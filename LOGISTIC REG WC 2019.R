@@ -40,7 +40,7 @@ test1 = read.csv('Test_Final.csv')
 ## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
 ## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
 
-test1 = test1[-c(1:25),]  
+#test1 = test1[-c(1:25),]  
 
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
@@ -75,9 +75,11 @@ test1 = test1[, -5]   ## Remove Ground Variable - Not included in Study
 
 View(test1)
 
-write.csv(test1, 'Logistic Regression Prediction After 25 June Matches.csv')
+write.csv(test1, 'Logistic Regression Prediction.csv')
 
 ## Model Evaluation 
+
+attach(test1)
 
 m3.matrix = confusion.matrix(test1$Team.A.Win, predict.logit, threshold = 0.5)
 m3.matrix

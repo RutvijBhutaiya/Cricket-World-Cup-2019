@@ -1,38 +1,39 @@
 "","Month","Year","Team.A","Team.B","predict.logit","Team.A.Win"
-"1","30-May",2019,"England"," South Africa",0.55938385375312,1
-"2","31-May",2019,"Pakistan"," West Indies",0.77226611929926,1
-"3","01-Jun",2019,"New Zealand"," Sri Lanka",0.683594093046014,1
-"4","02-Jun",2019,"Bangladesh"," South Africa",0.290499998647859,0
-"5","03-Jun",2019,"England"," Pakistan",0.686662222643734,1
-"6","05-Jun",2019,"India"," South Africa",0.621156672375706,1
-"7","05-Jun",2019,"Bangladesh"," New Zealand",0.486001031850417,0
-"8","06-Jun",2019,"Australia"," West Indies",0.896962596914362,1
-"9","07-Jun",2019,"Pakistan ","Sri Lanka",0.536952532948683,1
-"10","08-Jun",2019,"England ","Bangladesh",0.882353763599349,1
-"11","09-Jun",2019,"India ","Australia",0.636398494646365,1
-"12","10-Jun",2019,"South Africa ","West Indies",0.860955717167165,1
-"13","11-Jun",2019,"Bangladesh ","Sri Lanka",0.370970265132437,0
-"14","12-Jun",2019,"Australia ","Pakistan",0.781059165167493,1
-"15","13-Jun",2019,"India ","New Zealand",0.791073277233235,1
-"16","14-Jun",2019,"England ","West Indies",0.842458231727439,1
-"17","15-Jun",2019,"Sri Lanka ","Australia",0.480082848688863,0
-"18","16-Jun",2019,"India ","Pakistan",0.738919365722136,1
-"19","17-Jun",2019,"West Indies ","Bangladesh",0.725505950968945,1
-"20","19-Jun",2019,"New Zealand ","South Africa",0.599993517010117,1
-"21","20-Jun",2019,"Australia ","Bangladesh",0.92429587502877,1
-"22","21-Jun",2019,"England ","Sri Lanka",0.646470845757597,1
-"23","22-Jun",2019,"West Indies ","New Zealand",0.508158526643215,1
-"24","23-Jun",2019,"Pakistan ","South Africa",0.446006313820056,0
-"25","25-Jun",2019,"England ","Australia",0.57541215689658,1
-"26","26-Jun",2019,"New Zealand ","Pakistan",0.721383978065503,1
-"27","27-Jun",2019,"West Indies ","India",0.306551694147918,0
-"28","28-Jun",2019,"Sri Lanka ","South Africa",0.463809249490697,0
-"29","29-Jun",2019,"New Zealand ","Australia",0.615559817109842,1
-"30","30-Jun",2019,"England ","India",0.556428815902103,1
-"31","01-Jul",2019,"Sri Lanka ","West Indies",0.784646937108357,1
-"32","02-Jul",2019,"Bangladesh ","India",0.288036833920728,0
-"33","03-Jul",2019,"England ","New Zealand",0.745661986668852,1
-"34","05-Jul",2019,"Pakistan ","Bangladesh",0.826271392122141,1
-"35","06-Jul",2019,"Sri Lanka ","India",0.460831047996987,0
-"36","06-Jul",2019,"Australia ","South Africa",0.673916003987844,1
-"37","06-Jul",2019,"England","England",0.609670426942665,1
+"1","30-May",2019,"England"," South Africa",0.576410584217363,1
+"2","31-May",2019,"Pakistan"," West Indies",0.759474854348518,1
+"3","01-Jun",2019,"New Zealand"," Sri Lanka",0.69209839247517,1
+"4","02-Jun",2019,"Bangladesh"," South Africa",0.298948819368851,0
+"5","03-Jun",2019,"England"," Pakistan",0.699221820055229,1
+"6","05-Jun",2019,"India"," South Africa",0.60878530846805,1
+"7","05-Jun",2019,"Bangladesh"," New Zealand",0.489020442854185,0
+"8","06-Jun",2019,"Australia"," West Indies",0.897240092527257,1
+"9","07-Jun",2019,"Pakistan ","Sri Lanka",0.52271332741023,1
+"10","08-Jun",2019,"England ","Bangladesh",0.891055606314285,1
+"11","09-Jun",2019,"India ","Australia",0.59212665769809,1
+"12","10-Jun",2019,"South Africa ","West Indies",0.874052657868157,1
+"13","11-Jun",2019,"Bangladesh ","Sri Lanka",0.397027469183694,0
+"14","12-Jun",2019,"Australia ","Pakistan",0.770146493152036,1
+"15","13-Jun",2019,"India ","New Zealand",0.777402391814935,1
+"16","14-Jun",2019,"England ","West Indies",0.858317401554808,1
+"17","15-Jun",2019,"Sri Lanka ","Australia",0.452540445866413,0
+"18","16-Jun",2019,"India ","Pakistan",0.726661253865391,1
+"19","17-Jun",2019,"West Indies ","Bangladesh",0.737484753680241,1
+"20","19-Jun",2019,"New Zealand ","South Africa",0.592788632661744,1
+"21","20-Jun",2019,"Australia ","Bangladesh",0.92180390589356,1
+"22","21-Jun",2019,"England ","Sri Lanka",0.67754184469663,1
+"23","22-Jun",2019,"West Indies ","New Zealand",0.511949184457199,1
+"24","23-Jun",2019,"Pakistan ","South Africa",0.414953113784673,0
+"25","25-Jun",2019,"England ","Australia",0.559371148186063,1
+"26","26-Jun",2019,"New Zealand ","Pakistan",0.713213933925186,1
+"27","27-Jun",2019,"West Indies ","India",0.285341245428677,0
+"28","28-Jun",2019,"Sri Lanka ","South Africa",0.469795289834386,0
+"29","29-Jun",2019,"New Zealand ","Australia",0.57592331190457,1
+"30","30-Jun",2019,"England ","India",0.537557531420794,1
+"31","01-Jul",2019,"Sri Lanka ","West Indies",0.797761647142454,1
+"32","02-Jul",2019,"Bangladesh ","India",0.267009113830926,0
+"33","03-Jul",2019,"England ","New Zealand",0.753327556605431,1
+"34","05-Jul",2019,"Pakistan ","Bangladesh",0.809996460369693,1
+"35","06-Jul",2019,"Sri Lanka ","India",0.4308195735287,0
+"36","06-Jul",2019,"Australia ","South Africa",0.662308608146069,1
+"37","09-Jul",2019,"India","New Zealand",0.777402391814935,1
+"38","11-Jul",2019,"Australia","England",0.71002315929504,1
