@@ -262,6 +262,9 @@ However, few matches were very close call, e.g. in terms of % probability of win
                      
 <p align="center"><img width=90% src=https://user-images.githubusercontent.com/44467789/59976611-99fbaa00-95e4-11e9-89cf-f719213b0fc5.png>
 
+<br>
+
+__NOTE__ : Python code update for [Neural Network Technique](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/NN_WC.ipynb) to predict WC 2019 results. 
 
 <br>
 
