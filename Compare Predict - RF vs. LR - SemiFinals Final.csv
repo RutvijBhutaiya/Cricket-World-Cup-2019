@@ -1,0 +1,40 @@
+"","Month","Team.A","Team.B","RF Team.A.Win","Prob % RF Team.A.Win","Prob % LR Team.A.Win","LR Team.A.Win"
+"1","30-May","England"," South Africa",1,0.735,0.576410584,1
+"2","31-May","Pakistan"," West Indies",1,0.845,0.759474854,1
+"3","01-Jun","New Zealand"," Sri Lanka",1,0.965,0.692098392,1
+"4","02-Jun","Bangladesh"," South Africa",0,0.465,0.298948819,0
+"5","03-Jun","England"," Pakistan",1,0.94,0.69922182,1
+"6","05-Jun","India"," South Africa",1,0.56,0.608785308,1
+"7","05-Jun","Bangladesh"," New Zealand",1,0.755,0.489020443,0
+"8","06-Jun","Australia"," West Indies",1,0.84,0.897240093,1
+"9","07-Jun","Pakistan ","Sri Lanka",1,0.815,0.522713327,1
+"10","08-Jun","England ","Bangladesh",1,0.89,0.891055606,1
+"11","09-Jun","India ","Australia",1,0.52,0.592126658,1
+"12","10-Jun","South Africa ","West Indies",1,0.94,0.874052658,1
+"13","11-Jun","Bangladesh ","Sri Lanka",0,0.405,0.397027469,0
+"14","12-Jun","Australia ","Pakistan",1,0.685,0.770146493,1
+"15","13-Jun","India ","New Zealand",1,0.725,0.777402392,1
+"16","14-Jun","England ","West Indies",1,0.96,0.858317402,1
+"17","15-Jun","Sri Lanka ","Australia",0,0.225,0.452540446,0
+"18","16-Jun","India ","Pakistan",1,0.83,0.726661254,1
+"19","17-Jun","West Indies ","Bangladesh",0,0.475,0.737484754,1
+"20","19-Jun","New Zealand ","South Africa",0,0.365,0.592788633,1
+"21","20-Jun","Australia ","Bangladesh",1,0.745,0.921803906,1
+"22","21-Jun","England ","Sri Lanka",1,0.9,0.677541845,1
+"23","22-Jun","West Indies ","New Zealand",1,0.66,0.511949184,1
+"24","23-Jun","Pakistan ","South Africa",0,0.42,0.414953114,0
+"25","25-Jun","England ","Australia",1,0.765,0.559371148,1
+"26","26-Jun","New Zealand ","Pakistan",1,0.945,0.713213934,1
+"27","27-Jun","West Indies ","India",0,0.18,0.285341245,0
+"28","28-Jun","Sri Lanka ","South Africa",0,0.3,0.46979529,0
+"29","29-Jun","New Zealand ","Australia",1,0.695,0.575923312,1
+"30","30-Jun","England ","India",1,0.575,0.537557531,1
+"31","01-Jul","Sri Lanka ","West Indies",1,0.84,0.797761647,1
+"32","02-Jul","Bangladesh ","India",0,0.15,0.267009114,0
+"33","03-Jul","England ","New Zealand",1,0.805,0.753327557,1
+"34","05-Jul","Pakistan ","Bangladesh",1,0.795,0.80999646,1
+"35","06-Jul","Sri Lanka ","India",0,0.065,0.430819574,0
+"36","06-Jul","Australia ","South Africa",0,0.34,0.662308608,1
+"37","09-Jul","India","New Zealand",1,0.725,0.777402392,1
+"38","11-Jul","Australia","England",0,0.415,0.710023159,1
+"39","14-Jul","England","New Zealand",1,0.79,0.741251632,1
