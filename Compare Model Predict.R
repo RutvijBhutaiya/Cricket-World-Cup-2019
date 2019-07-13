@@ -18,4 +18,4 @@ colnames(ComparePredict)[colnames(ComparePredict) == 'predict.logit'] = 'Prob % 
 
 ComparePredict = ComparePredict[, -c(6,7,8)]
 
-write.csv(ComparePredict, 'Compare Predict - RF vs. LR.csv')
+write.csv(ComparePredict, 'Compare Predict - RF vs. LR - SemiFinals Final.csv')

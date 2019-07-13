@@ -36,11 +36,11 @@ train = sample_frac(train, 1)
 
 test1 = read.csv('Test_Final.csv')
 
-## UPDATE AS ON 26-6-2019 
-## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
-## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
+## UPDATE AS ON 08-7-2019 
+## TRAIN DATASET ALSO INCLUDED WC MATCHES 
+## PREDICTING WC 2019 FOr SEMI-FINALS
 
-#test1 = test1[-c(1:25),]  
+test1 = test1[-c(1:38),]  ## For Final
 
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
@@ -75,7 +75,7 @@ test1 = test1[, -5]   ## Remove Ground Variable - Not included in Study
 
 View(test1)
 
-write.csv(test1, 'Logistic Regression Prediction.csv')
+write.csv(test1, 'Logistic Regression Prediction SemiFinals Final.csv')
 
 ## Model Evaluation 
 

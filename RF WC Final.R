@@ -35,11 +35,11 @@ train = sample_frac(train, 1)
 
 test1 = read.csv('Test_Final.csv')
 
-## UPDATE AS ON 26-6-2019 
-## TRAIN DATASET ALSO INCLUDED WC 19 MATCHES 
-## PREDICTING WC 2019 AFTER 25TH JUNE 2019 MATCHES
+## UPDATE AS ON 8-7-2019 
+## TRAIN DATASET ALSO INCLUDED WC MATCHES 
+## PREDICTING WC 2019 Semi- FInals / Finals
 
-# test1 = test1[-c(1:25),]  
+ test1 = test1[-c(1:38),]  
 
 Team.A.matrix.test = model.matrix(~ Trim.Team.A - 1, data = test1)
 test1 = data.frame(test1, Team.A.matrix.test)
@@ -66,11 +66,11 @@ plot(wc.rf)
 wc.rf$err.rate
 
 rf.tune = tuneRF(x = train, y = as.factor(Team.A.Won), 
-                 mtryStart = 8, ntreeTry = 200, stepFactor = 1.5, Improve = 0.001,
+                 mtryStart = 8, ntreeTry = 100, stepFactor = 1.5, Improve = 0.001,
                  trace = TRUE, plot = TRUE, doBest = TRUE, important = TRUE, nodesize = 10)
 
 wc.rf.tune = randomForest(as.factor(Team.A.Won) ~., data = train,
-                          ntree = 200, mtry = 6, nodesize = 10, important = TRUE)
+                          ntree = 100, mtry = 8, nodesize = 10, important = TRUE)
 
 print(wc.rf.tune)
 
@@ -81,6 +81,6 @@ test1 = test1[, -c(5:25)]
 View(test1)
 
 
-write.csv(test1, 'Random Forest Prediction.csv')
+write.csv(test1, 'Random Forest Prediction SemiFinals Final.csv')
 
 
