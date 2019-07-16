@@ -268,6 +268,18 @@ __NOTE__ : Python code update for [Neural Network Technique](https://github.com/
 
 <br>
 
+__FINAL RESULT__ : ENGLAND WON THE ICC WORLD CUP 2019
+
+<br>
+
+### How to Imrpove Project Results
+
+- Build Model based on CART
+- Build MOdel based on LDA
+- BUild Model based on Neural Network
+
+<br>
+
 ## LICENSE 
 
 This Project/Repository is Licensed under [MIT license.](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/LICENSE) 
