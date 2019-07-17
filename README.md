@@ -268,7 +268,7 @@ __NOTE__ : Python code update for [Neural Network Technique](https://github.com/
 
 <br>
 
-__FINAL RESULT__ : ENGLAND WON THE ICC WORLD CUP 2019
+__FINAL RESULT__ : ENGLAND WON THE ICC WORLD CUP 2019 [Our prediction was probability for England winning WC 2019 is 74.12% and New Zealand winning WC 2019 is 25.8%] We would be more happy if our results probability were near to 50%, because match went into the Super over, and both the teams were so much close to win the trophy. 
 
 <br>
 
