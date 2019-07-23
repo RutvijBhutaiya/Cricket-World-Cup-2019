@@ -6,37 +6,37 @@
 library(CHAID)
 
 wc <- read.csv('WC_Train.csv')
+
 test1 = read.csv('Test_2015.csv')
 
 attach(wc)
 
-bb = wc[which(wc$Year >=2000 & wc$Year <=2015),]
+train = wc[which(wc$Year >= 2007 & wc$Year <=2019),]        
         
-        
-# Clusters for WC as test and Previous 4 years Matches
+train = train[, -c(3,4,7)]
 
-#C1992 = wc[which(wc$Year <= 1992),]
-#attach(C1992)
+## COnvert Year into Factor to support CHAID
 
-#summary(C1992)
+train$Year = as.factor(train$Year)
 
-#C1992 = C1992[, -6]
-bb = bb[, -6]
-test1 = test1[, c(-6,-2)]
 
-#C1992$Team.A.Won = as.factor(C1992$Team.A.Won)
-bb$Team.A.Won = as.factor(bb$Team.A.Won)
+ctrl  = chaid_control(minbucket = 30, minsplit = 100, alpha2 = 0.05, alpha4 = 0.05)
 
-ctrl  = chaid_control(minbucket = 10, minsplit = 100, alpha2 = 0.05, alpha4 = 0.05)
+attach(train)
 
-m1 = chaid(Team.A.Won ~ Month + Team.A + Team.B + Ground, data = bb, control = ctrl)
+m1 = chaid(Won ~ Month + Year + Ground + Trim.Team.A + Trim.Team.B, data = train, control = ctrl)
 
 print(m1)
 plot(m1)
 
-test1$Team.AA.Won = predict(m1, test1)
-test1$Prob.win = predict(m1, test1, class = 'prob')
+## Load TEst Dataset
 
-ch = table(Team.A, Won)
-chisq.test(ch)
+test = read.csv('Test_Final.csv')
+
+test$Won = predict(m1, test)
+test$Prob.win = predict(m1, test, class = 'prob')
+
+test = test[, -c(3,4,5)]
+
+write.csv(test, 'CHAID Results.csv')
 
