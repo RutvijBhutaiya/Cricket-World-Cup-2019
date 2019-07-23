@@ -230,6 +230,14 @@ Afger 26 June Match Results are store in - [Logistic Regression Prediction after
 
 <br>
 
+## CHAID Model 
+
+We also build Chaid model to predict the WC 2019 matched, However, we didn't get good outputs from the predicting model. Hence we didn't highlited the model in the study. 
+
+Out of total 37 matched - 4 matched had NO results (due to the Rain), CHAID predicted only 17 matched correct (Actually team won the match). Hence, success ration for the model is 48.5% (17/35 matches). 
+
+<br>
+
 ## Compare Model Performance
 
 Based on the two supervised learning techniques we build model which can predict WC 2019 matched outcome even before actual match starts. And we compared the model results vs. actual matches result.  
