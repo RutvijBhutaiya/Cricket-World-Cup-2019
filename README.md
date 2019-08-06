@@ -294,6 +294,7 @@ __FINAL RESULT__ : ENGLAND WON THE ICC WORLD CUP 2019 [Our prediction was probab
 - First time worked on Real Time Machine Learning Project. It was intresting to choose Data from and previous matches and build Random Forest and Logistic Regression models. 
 - Initially we tried to build CHAID, however, due to data (numurical) we were not able to fit model - the way we wanted. And hence, we decided to create dummy variable for categorical variables and build Random Forest (RF) and Logistic Regression (LR) models. 
 - Our initial though was RF would not give good results, and hence we were dependent on LR. But, we saw that in few matches RF worked very well. 
+- Convert probability results into binary (0 or 1) [Logistic Regression] based on Match Win -  Used ifelse() function. Simple!
 
 <br>
 
