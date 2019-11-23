@@ -1,6 +1,8 @@
 <p align="center"><img width=13.5% src=https://user-images.githubusercontent.com/44467789/59976884-18a61680-95e8-11e9-9c65-98fe0c384a61.png>
   
   <p align="center"><img width=40% src=https://user-images.githubusercontent.com/44467789/59974831-2484df00-95ce-11e9-8562-ab311b53da92.gif>
+  
+                                              Source: ESPN Cricket World Cup
 
 
 <br>
@@ -293,6 +295,7 @@ __FINAL RESULT__ : ENGLAND WON THE ICC WORLD CUP 2019 [Our prediction was probab
 - Build Model based on CART
 - Build MOdel based on LDA
 - BUild Model based on Neural Network
+- Data Collection from various sources 
 
 <br>
 
