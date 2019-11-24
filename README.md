@@ -263,10 +263,10 @@ colnames(ComparePredict)[colnames(ComparePredict) == 'predict.logit'] = 'Prob % 
 
 In the same [.csv](https://github.com/RutvijBhutaiya/Cricket-World-Cup-2019/blob/master/Compare%20Predict%20-%20RF%20vs.%20LR.csv) file we also manually entered actual match result.
 
-#### Update Date (08/07/2019)
+#### Update Date (15/07/2019)
 
-- __RF Predicted 20 correct matches out of 31 : 64.5% correct__
-- __LR Predicted 21 correct matched out of 31 : 67.7% correct__
+- __Random Forest Predicted 23 correct matches out of 34 : 67.6% correct__
+- __Logistic Regression Predicted 22 correct matched out of 34 : 64.7% correct__
 
 Note: __Afghanistan team matches and Match abandoned due to rain__ are not included in the result score. 
 
